@@ -9,6 +9,16 @@
             "projectName": "SpringBootRegistrationLogin",
             "args": "",
             "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-PasswordGenerator<SpringBootRegistrationLogin>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "net.codejava.PasswordGenerator",
+            "projectName": "SpringBootRegistrationLogin",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
         }
     ]
 }
