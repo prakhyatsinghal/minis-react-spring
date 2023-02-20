@@ -1,4 +1,11 @@
-# spring-boot-registration-login
-Sample Project demonstrating User Registration and Login with Spring Boot
-### Follow our written tutorial here: [Spring Boot Registration and Login with MySQL Database Tutorial](https://www.codejava.net/frameworks/spring-boot/user-registration-and-login-tutorial)
-### Follow our video tutorial here: [Spring Boot Registration and Login with MySQL Database, Bootstrap and HTML5](https://www.youtube.com/watch?v=aRLoSDOlU3w)
+Spring Boot Registration & Login
+
+1. Created Project % Configure Dependencies
+2. Configured Data Source & created database
+3. Code Entity Class
+4. Added Unit Tests ( Test Create User)
+5. Code spring mvc controller class
+6. Code Registration Form & Use Bootstrap
+7. Code Custom UserDetails and UserDetailsService classes
+8. Configure Spring Security for authentication
+9. Code Lists Users page & Logout
