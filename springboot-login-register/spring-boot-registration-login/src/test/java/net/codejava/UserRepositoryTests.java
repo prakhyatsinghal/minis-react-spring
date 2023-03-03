@@ -2,6 +2,8 @@ package net.codejava;
 
 import static org.assertj.core.api.Assertions.assertThat;
 
+import org.junit.jupiter.api.AfterAll;
+import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabase;
@@ -9,6 +11,9 @@ import org.springframework.boot.test.autoconfigure.jdbc.AutoConfigureTestDatabas
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.boot.test.autoconfigure.orm.jpa.TestEntityManager;
 import org.springframework.test.annotation.Rollback;
+
+import net.coinrich.model.User;
+import net.coinrich.repository.UserRepository;
 
 @DataJpaTest
 @AutoConfigureTestDatabase(replace = Replace.NONE)
@@ -38,8 +43,9 @@ public class UserRepositoryTests {
 	}
 	
 	@Test
+	@AfterEach
 	public void testFindByEmail() {
-		String email = "nam@codejava.net";
+		String email = "ravikumar@gmail.com";
 		User user = repo.findByEmail(email);
 		
 		assertThat(user.getEmail()).isEqualTo(email);

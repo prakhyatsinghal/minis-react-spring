@@ -1,4 +1,4 @@
-package net.codejava;
+package net.coinrich.model;
 
 import javax.persistence.Column;
 import javax.persistence.Entity;

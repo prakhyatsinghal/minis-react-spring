@@ -1,4 +1,4 @@
-package net.codejava;
+package net.coinrich.security;
 
 import javax.sql.DataSource;
 

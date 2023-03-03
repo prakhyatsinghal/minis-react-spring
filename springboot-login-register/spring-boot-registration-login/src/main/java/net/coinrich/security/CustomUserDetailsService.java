@@ -1,9 +1,12 @@
-package net.codejava;
+package net.coinrich.security;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
+
+import net.coinrich.model.User;
+import net.coinrich.repository.UserRepository;
 
 public class CustomUserDetailsService implements UserDetailsService {
 
