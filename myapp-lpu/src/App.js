@@ -39,12 +39,16 @@
 
 import React from "react";
 import EmployeeList from "./EmployeeList";
+import Output from "./components/Output";
+import Input from "./components/Input";
 
 function App() {
   return (
     <div>
-      <h1>Employee Information</h1>
-      <EmployeeList />
+      {/* <h1>Employee Information</h1>
+      <EmployeeList /> */}
+      <Input></Input>
+      <Output></Output>
     </div>
   );
 }
